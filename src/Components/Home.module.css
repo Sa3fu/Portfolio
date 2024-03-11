@@ -1,0 +1,39 @@
+.logo {
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    margin-top: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo__image {
+    width: 60px;
+    transition: opacity .5s;
+    justify-content: center;
+  }
+
+  .logo__text {
+    font-size: .9em;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity .5s;    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: full;
+    transform: translateY(-36px);
+  }
+
+  .logo:hover .logo__image {
+    opacity: 0;
+  }
+
+  .logo:hover .logo__text {
+    opacity: 1;
+    cursor: pointer;
+  }
