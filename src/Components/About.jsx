@@ -15,7 +15,7 @@ function About() {
         <div className="border-[1px] border-cyan-400 w-36 mb-10"></div>
         <div>
           <div className=" w-60 sm:w-96 sm:h-80 rounded-full h-60 overflow-hidden flex justify-center items-center mb-4 lg:absolute right-0 md:w-80 md:top-10">
-            <img className="w-full h-full object-cover" src={Img} alt="" />
+            <img className="w-full h-full object-cover" src={Img} alt="Image1" />
           </div>
           </div>
           <div className=" w-full lg:w-2/3 leading-7">
