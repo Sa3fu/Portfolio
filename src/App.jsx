@@ -1,5 +1,6 @@
 import About from "./Components/About";
 import Home from "./Components/Home";
+import Skills from "./Components/Skills";
 import Whatido from "./Components/Whatido";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Home />
       <About />
       <Whatido />
+      <Skills />
     </div>
   );
 }

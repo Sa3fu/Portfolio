@@ -3,8 +3,15 @@ import BackgroundImg from "../assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg";
 import logo from "../assets/output-onlinepngtools.png";
 import classes from "./Home.module.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
 
 function Home() {
+  const words = [
+    {
+      text: "Software Engineer",
+      className:"text-white text-4xl"
+    },
+  ];
   return (
     <div
       className="relative bg-cover bg-center h-screen w-full overflow-x-hidden"
@@ -15,9 +22,7 @@ function Home() {
           <h1 className="text-5xl text-white font-semibold">
             Mohammad Saifuddin
           </h1>
-          <p className="text-2xl text-white font-medium p-6 mb-24">
-            Software Engineer
-          </p>
+          <TypewriterEffectSmooth words={words} className="flex items-center justify-center"/>
         </div>
         <div className={classes.logo}>
           <img className={classes.logo__image} src={logo} alt="" />
