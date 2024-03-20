@@ -92,6 +92,12 @@ export const BackgroundBeams = React.memo(
             {paths.map((path, index) => (
               <motion.linearGradient
                 id={`linearGradient-${index}`}
+                initial={{
+                  x1: "100%",
+                  x2: "1000%",
+                  y1: "100%",
+                  y2: "100%",
+                }}
                 x1="100%"
                 x2="100%"
                 y1="100%"

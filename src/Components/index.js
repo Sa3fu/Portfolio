@@ -60,3 +60,10 @@ export const design = [
   { _id: "25", img: adobeAE, text: "afterEffects" },
   { _id: "26", img: adobeIn, text: "indesign" },
 ];
+
+export const tools = [
+  { _id: "31", text: "Git + Github" },
+  { _id: "32", text: "Command Line" },
+  { _id: "33", text: "Chrome Dev Tools" },
+  { _id: "34", text: "Postman" },
+];
