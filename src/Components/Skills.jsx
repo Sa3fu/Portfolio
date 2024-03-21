@@ -43,7 +43,7 @@ function Skills() {
         </ul>
       </div>
 
-      <div className="mb-10 md:absolute md:top-32 md:right-28 lg:right-40">
+      <div className="mb-10 md:absolute md:top-32 md:right-28 lg:right-72">
         <h2 className="flex items-center gap-3 mb-5">
           <span>
             <img src={webDev} alt="" className="w-9" />
@@ -59,7 +59,7 @@ function Skills() {
         </ul>
       </div>
 
-      <div className="mb-6 md:absolute md:top-80 md:right-32 lg:right-44">
+      <div className="mb-6 md:absolute md:top-80 md:right-32 lg:right-[19rem]">
         <h2 className="flex items-center gap-3 mb-5">
           <span>
             <img src={Tools} alt="" className="w-9" />
