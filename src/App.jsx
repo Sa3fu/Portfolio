@@ -3,6 +3,7 @@ import Experience from "./Components/Experience";
 import Home from "./Components/Home";
 import Skills from "./Components/Skills";
 import Whatido from "./Components/Whatido";
+import Works from "./Components/Works";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Whatido />
       <Skills />
       <Experience />
+      <Works/>
     </div>
   );
 }

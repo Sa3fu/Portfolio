@@ -1,0 +1,43 @@
+.logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(23, 165, 165);
+    padding: 20px;
+    font-size: larger;
+  }
+  
+  .logo__image {
+    position: absolute;
+    transition: opacity 0.5s;
+    opacity: 0;
+    top: 10px;
+  }
+
+  .logo:hover{
+    background-color: rgb(16, 225, 225);
+    cursor: pointer;
+  }
+  
+  .logo:hover .logo__image {
+    opacity: 1;
+  }
+  
+  .logo__text {
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    transition: opacity 0.5s;
+    opacity: 1;
+  }
+  
+  .logo:hover .logo__text {
+    opacity: 0;
+  }
+  

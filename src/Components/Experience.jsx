@@ -1,16 +1,19 @@
 import React from "react";
 import bgImg from "../assets/marcelo-vaz-ka6WGHXcFMY-unsplash.jpg";
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
+import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
+import "./logo.css"
 
 function Experience() {
   return (
     <div
-      className="relative "
+      className="relative overflow-x-hidden"
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundSize: "cover",
@@ -43,7 +46,7 @@ function Experience() {
               icon={<WorkOutlineOutlinedIcon />}
             >
               <h3 className="vertical-timeline-element-title mb-3 font-titleFont text-3xl">
-                Software Developer
+                Software Engineer
               </h3>
               <h4 className="vertical-timeline-element-subtitle mb-3 text-base text-cyan-500">
                 Appmocx
@@ -69,6 +72,19 @@ function Experience() {
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
+        <div className="relative bottom-6 left-1 sm:left-[0.875rem] md:left-4 lg:left-5 xl:left-[37.906rem]">
+          <ArrowDropDownOutlinedIcon
+            sx={{ fontSize: "50px", color: "lightblue" }}
+          />
+        </div>
+      </div>
+      <div className="logo">
+        <span className="logo__text">
+          View My Full Resume
+        </span>
+        <span className="logo__image">
+          <FileDownloadOutlinedIcon sx={{fontSize:"40px" , color:"white"}}/>
+        </span>
       </div>
     </div>
   );
