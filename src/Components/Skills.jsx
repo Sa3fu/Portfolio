@@ -20,7 +20,7 @@ function Skills() {
           particleColor="#FFFFFF"
         />
       </div>
-      <h1 className="text-4xl text-white font-medium mb-5 font-titleFont">
+      <h1 className="text-4xl text-white font-medium mb-5 font-titleFont mt-5">
         Skills
       </h1>
       <div className="border-[1px] border-cyan-400 w-36 mb-10"></div>
@@ -43,7 +43,7 @@ function Skills() {
         </ul>
       </div>
 
-      <div className="mb-10 md:absolute md:top-32 md:right-28 lg:right-72">
+      <div className="mb-10 md:absolute md:top-36 md:right-28 lg:right-72">
         <h2 className="flex items-center gap-3 mb-5">
           <span>
             <img src={webDev} alt="" className="w-9" />

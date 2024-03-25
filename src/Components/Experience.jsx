@@ -22,7 +22,7 @@ function Experience() {
     >
       <div className="absolute inset-0 bg-black opacity-45"></div>
       <div>
-        <div className="relative flex flex-col justify-center p-5 items-center">
+        <div className="relative flex flex-col justify-center p-5 items-center mt-5">
           <h3 className="font-titleFont text-4xl font-semibold text-white mb-5">
             Experience
           </h3>

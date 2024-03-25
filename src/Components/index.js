@@ -5,6 +5,9 @@ import adobePS from "../assets/adobe-photoshop.256x256.png";
 import canva from "../assets/canva.png";
 import adobeIn from "../assets/indesign.256x250.png";
 
+import amazonClone from "../assets/work/Screenshot 2024-03-25 104519.png";
+
+
 export const webDevelopment = [
   {
     _id: "1",
@@ -66,4 +69,17 @@ export const tools = [
   { _id: "32", text: "Command Line" },
   { _id: "33", text: "Chrome Dev Tools" },
   { _id: "34", text: "Postman" },
+];
+
+export const someofwork = [
+  {
+    _id: "41",
+    img: amazonClone,
+    textcode: "Code",
+    textdemo: "Demo",
+    title: "Amazon Clone",
+    discription:
+      "I created an Amazon clone using ReactJS, incorporating Redux and Firebase. In this application, users can register and log in to the webpage. There's also a product page where users can add items to their cart for purchase. They can adjust the quantity of items in the cart and clear it if desired. The items are fetched from the Fake Store API.",
+    technologystack: ["ReactJs", "Redux", "Firebase"],
+  },
 ];
