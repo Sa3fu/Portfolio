@@ -6,7 +6,7 @@ import canva from "../assets/canva.png";
 import adobeIn from "../assets/indesign.256x250.png";
 
 import amazonClone from "../assets/work/Screenshot 2024-03-25 104519.png";
-
+import tictactoa from "../assets/work/Screenshot 2024-03-25 124539.png";
 
 export const webDevelopment = [
   {
@@ -80,6 +80,16 @@ export const someofwork = [
     title: "Amazon Clone",
     discription:
       "I created an Amazon clone using ReactJS, incorporating Redux and Firebase. In this application, users can register and log in to the webpage. There's also a product page where users can add items to their cart for purchase. They can adjust the quantity of items in the cart and clear it if desired. The items are fetched from the Fake Store API.",
-    technologystack: ["ReactJs", "Redux", "Firebase"],
+    technologystack: ["ReactJs", "Redux", "Firebase","Tailwind CSS"],
+  },
+  {
+    _id: "42",
+    img: tictactoa,
+    textcode: "Code",
+    textdemo: "Demo",
+    title: "Tic Tac Toe",
+    discription:
+      "I created a Tic Tac Toe project from scratch using React to understand the concepts of useState and useEffect. In this project, two players can play Tic Tac Toe, and they can input their names instead of being labeled as Player 1 and Player 2. The winner of the game will be displayed, and the moves made by the players will be shown below the game board.",
+    technologystack: ["ReactJs","CSS"],
   },
 ];
