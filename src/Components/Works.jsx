@@ -6,7 +6,7 @@ import { SparklesCore } from "../ui/sparkles";
 function Works() {
   return (
     <div className="relative bg-stone-900">
-      <div className="w-full absolute inset-0">
+      <div className="w-full absolute inset-0 z-0">
         <SparklesCore
           id="tsparticlesfullpage-works"
           background="transparent"
@@ -17,7 +17,7 @@ function Works() {
           particleColor="#FFFFFF"
         />
       </div>
-      <div className="text-white p-5 md:px-20 lg:px-36 ">
+      <div className="text-white p-5 md:px-20 lg:px-36 z-10">
         <h1 className="font-titleFont text-4xl mb-5 font-medium mt-5">
           Some of My Works
         </h1>
@@ -26,10 +26,11 @@ function Works() {
           <div key={item._id} className="mt-12">
             <div className="border-[1px] border-cyan-400 w-36 -mt-6 mb-10"></div>
             <img
-              className="w-60 mb-4 lg:w-96"
+              className="w-60 mb-4 lg:w-96 xl:w-2/3 sm:mb-6"
               src={item.img}
               alt={item.title}
             />
+            <div className="sm:flex sm:justify-between sm:items-center">
             <h2 className="font-titleFont font-medium text-2xl mb-3">
               {item.title}
             </h2>
@@ -40,6 +41,7 @@ function Works() {
               <button className=" border-2 border-cyan-500 p-1 px-3 hover:bg-cyan-500 rounded-sm  hover:text-white">
                 {item.textdemo}
               </button>
+            </div>
             </div>
             <p className=" text-base text-stone-400 mb-3">{item.discription}</p>
             <div className="text-sm text-stone-400 flex flex-wrap gap-3 mb-7">

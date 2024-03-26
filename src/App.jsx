@@ -1,5 +1,6 @@
 import About from "./Components/About";
 import Experience from "./Components/Experience";
+import Form from "./Components/Form";
 import Home from "./Components/Home";
 import Skills from "./Components/Skills";
 import Whatido from "./Components/Whatido";
@@ -13,7 +14,8 @@ function App() {
       <Whatido />
       <Skills />
       <Experience />
-      <Works/>
+      <Works />
+      <Form />
     </div>
   );
 }

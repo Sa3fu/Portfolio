@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .labelForm {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .formInput {
+    width: 20rem;
+    padding: 0.5rem;
+    border-bottom-width: 2px;
+    background-color: transparent;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: white;
+  }
+  
+  .formInput:focus {
+    border-color: aqua;
+  }
+  
+  .formInput:focus + .labelForm {
+    color: aqua;
+  }
+  
