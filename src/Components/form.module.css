@@ -1,6 +1,6 @@
 .form {
     display: flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     justify-content: center;
     position: relative;
   }
@@ -10,6 +10,8 @@
     line-height: 1.75rem;
     color: white;
     font-weight: 500;
+    transition: color 0.3s ease-in-out; 
+    
   }
   
   .formInput {
@@ -20,13 +22,37 @@
     outline: 2px solid transparent;
     outline-offset: 2px;
     color: white;
+    transition: ease-in-out 2ms;
+    font-size: large;
+    margin-bottom: 30px;
   }
   
-  .formInput:focus {
+  .formInput:focus , .formTextarea:focus {
     border-color: aqua;
   }
   
   .formInput:focus + .labelForm {
     color: aqua;
+    font-size: medium;
+    transition: linear 600ms;
+  }
+
+  .formTextarea{
+    width: 20rem;
+    border-bottom-width: 2px;
+    background-color: transparent;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: white;
+    transition: ease-in-out 2ms;
+    font-size: large;
+    margin-bottom: 30px;
+    resize: none;
+    overflow: hidden;
+  }
+  .formTextarea:focus + .labelForm{
+    color: aqua;
+    font-size: medium;
+    transition: linear 600ms;
   }
   
