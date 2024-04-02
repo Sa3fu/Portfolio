@@ -5,11 +5,14 @@ import classes from "./Home.module.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
 
-function Home() {
+function Home({ aboutRef }) {
+  const scrolltoabout = () => {
+    aboutRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   const words = [
     {
       text: "Software Engineer",
-      className:"text-white text-4xl"
+      className: "text-white text-4xl",
     },
   ];
   return (
@@ -22,9 +25,12 @@ function Home() {
           <h1 className="text-5xl text-white font-semibold">
             Mohammad Saifuddin
           </h1>
-          <TypewriterEffectSmooth words={words} className="flex items-center justify-center"/>
+          <TypewriterEffectSmooth
+            words={words}
+            className="flex items-center justify-center"
+          />
         </div>
-        <div className={classes.logo}>
+        <div className={classes.logo} onClick={scrolltoabout}>
           <img className={classes.logo__image} src={logo} alt="" />
           <span className={classes.logo__text}>
             Learn more{" "}
