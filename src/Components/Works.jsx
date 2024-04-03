@@ -31,17 +31,23 @@ function Works() {
               alt={item.title}
             />
             <div className="sm:flex sm:justify-between sm:items-center">
-            <h2 className="font-titleFont font-medium text-2xl mb-3">
-              {item.title}
-            </h2>
-            <div className="flex gap-4 text-cyan-300 mb-7">
-              <button className=" border-2 border-cyan-500 p-1 px-3 hover:bg-cyan-500 rounded-sm  hover:text-white">
-                {item.textcode}
-              </button>
-              <button className=" border-2 border-cyan-500 p-1 px-3 hover:bg-cyan-500 rounded-sm  hover:text-white">
-                {item.textdemo}
-              </button>
-            </div>
+              <h2 className="font-titleFont font-medium text-2xl mb-3">
+                {item.title}
+              </h2>
+              <div className="flex gap-4 text-cyan-300 mb-7">
+                <a
+                  className=" border-2 border-cyan-500 p-1 px-3 hover:bg-cyan-500 rounded-sm  hover:text-white z-10"
+                  href={item.code}
+                >
+                  {item.textcode}
+                </a>
+                <a
+                  className=" border-2 border-cyan-500 p-1 px-3 hover:bg-cyan-500 rounded-sm  hover:text-white z-10"
+                  href={item.demo}
+                >
+                  {item.textdemo}
+                </a>
+              </div>
             </div>
             <p className=" text-base text-stone-400 mb-3">{item.discription}</p>
             <div className="text-sm text-stone-400 flex flex-wrap gap-3 mb-7">
@@ -54,12 +60,12 @@ function Works() {
           </div>
         ))}
       </div>
-      <div className="logo">
+      <a className="logo" href="https://github.com/Sa3fu?tab=repositories">
         <span className="logo__text">SEE MORE PROJECTS</span>
         <span className="logo__image">
           <img className="w-10" src={gitlogo} />
         </span>
-      </div>
+      </a>
     </div>
   );
 }

@@ -17,7 +17,7 @@ function Home({ aboutRef }) {
   ];
   return (
     <div
-      className="relative bg-cover bg-center h-screen w-full overflow-x-hidden"
+      className="relative bg-cover bg-center h-screen w-full overflow-x-hidden z-20"
       style={{ backgroundImage: `url(${BackgroundImg})` }}
     >
       <div className="absolute inset-0 flex items-center justify-center">

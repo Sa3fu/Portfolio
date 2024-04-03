@@ -27,7 +27,7 @@ const Header = ({ home, about, whatido, skills, experience, works, form }) => {
     <div className="relative">
       <div className="lg:hidden xl:hidden">
         <MenuOutlinedIcon
-          className="fixed z-10 top-4 right-6 cursor-pointer focus:hidden"
+          className="fixed z-30 top-4 right-6 cursor-pointer focus:hidden"
           sx={{ color: "white", fontSize: "50px" }}
           onClick={handleOpen}
         />
@@ -51,7 +51,7 @@ const Header = ({ home, about, whatido, skills, experience, works, form }) => {
           />
           <div>
             <ul className="flex flex-col justify-center items-center mt-16 gap-8 text-white text-3xl font-semibold">
-              <li onClick={() => scrollToRef(home)}>Home</li>
+              <li onClick={() => scrollToRef(home)}>Intro</li>
               <li onClick={() => scrollToRef(about)}>About</li>
               <li onClick={() => scrollToRef(whatido)}>What I Do</li>
               <li onClick={() => scrollToRef(skills)}>Skills</li>

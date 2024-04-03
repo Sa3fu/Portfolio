@@ -41,3 +41,8 @@
     opacity: 0;
   }
   
+
+  li:hover .hidden {
+    display: inline-block;
+  }
+  
