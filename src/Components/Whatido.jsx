@@ -6,7 +6,7 @@ function Whatido() {
   return (
     <div className="relative">
       {/* Black overlay with opacity */}
-      <div className="absolute inset-0 bg-black opacity-45"></div>
+      <div className="absolute inset-0 bg-black opacity-65"></div>
 
       {/* Background image */}
       <div
@@ -30,10 +30,9 @@ function Whatido() {
                   </h3>
                 </div>
                 <p className="text-base ">
-                  Using HTML, CSS, and JavaScript with pre-processors and build
-                  tools such as Sass and Grunt, I have a passion for developing
-                  pixel-perfect websites and apps while maintaining a semantic,
-                  modular, and DRY code base.
+                  I love creating websites and apps with ReactJS, NodeJS, and
+                  MongoDB, along with a few frameworks, all while keeping a
+                  semantic, modular, and DRY code base.
                 </p>
               </div>
               <div className="mb-9 sm:mb-0">
@@ -67,7 +66,7 @@ function Whatido() {
                     />
                   </span>
                   <h3 className="font-tilteFont text-lg text-semibold">
-                  EXPERIENCE DESIGN
+                    EXPERIENCE DESIGN
                   </h3>
                 </div>
                 <p className="text-base ">

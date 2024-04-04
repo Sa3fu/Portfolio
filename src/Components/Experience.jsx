@@ -8,7 +8,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
-import "./logo.css"
+import "./logo.css";
+import Resume from "../assets/Resume/SaifuddinResume.pdf"
 
 function Experience() {
   return (
@@ -78,14 +79,16 @@ function Experience() {
           />
         </div>
       </div>
-      <div className="logo">
-        <span className="logo__text">
-          View My Full Resume
-        </span>
+      <a
+        href={Resume}
+        className="logo"
+        target="_blank" rel="noopener noreferrer"
+      >
+        <span className="logo__text">View My Full Resume</span>
         <span className="logo__image">
-          <FileDownloadOutlinedIcon sx={{fontSize:"40px" , color:"white"}}/>
+          <FileDownloadOutlinedIcon sx={{ fontSize: "40px", color: "white" }} />
         </span>
-      </div>
+      </a>
     </div>
   );
 }

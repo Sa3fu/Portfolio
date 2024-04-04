@@ -44,7 +44,7 @@ function Form() {
         backgroundPosition: "center",
       }}
     >
-      <div className="absolute inset-0 bg-black opacity-45"></div>
+      <div className="absolute inset-0 bg-black opacity-75"></div>
       <div className="relative p-5 flex justify-center flex-col items-center">
         <h1 className="text-4xl text-white font-titleFont mb-3 mt-6 font-medium">
           Get In Touch

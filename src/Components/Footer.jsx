@@ -9,13 +9,19 @@ function Footer() {
       <div className="p-9">
         <ul className="flex justify-center items-center gap-8 mb-4">
           <li>
-            <img className="w-10" src={linkedin} alt="linkedin" />
+            <a href="https://www.linkedin.com/in/m-saifuddin-057796221/">
+              <img className="w-10" src={linkedin} alt="linkedin" />
+            </a>
           </li>
           <li>
-            <img className="w-8" src={github} alt="linkedin" />
+            <a href="https://github.com/Sa3fu">
+              <img className="w-8" src={github} alt="github" />
+            </a>
           </li>
           <li>
-            <img className="w-8" src={instaicon} alt="linkedin" />
+            <a href="https://www.instagram.com/sa_3fu/">
+              <img className="w-8" src={instaicon} alt="linkedin" />
+            </a>
           </li>
         </ul>
         <div className="flex relative justify-center items-start bottom-0">
