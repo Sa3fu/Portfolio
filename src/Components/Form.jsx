@@ -13,7 +13,7 @@ function Form() {
 
     emailjs
       .sendForm("service_tkmbrxf", "template_21gdo25", form.current, {
-        publicKey: "znY4NTpzXeEL6pcCk",
+        publicKey: import.meta.env.VITE_REACT_APP_EMAILJS_PUBLIC_KEY,
       })
       .then(
         () => {
