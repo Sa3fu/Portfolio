@@ -8,6 +8,7 @@ import Whatido from "./Components/Whatido";
 import Works from "./Components/Works";
 import Header from "./Components/Header";
 import Headerlg from "./Components/Headerlg";
+import Footer from "./Components/Footer";
 
 function App() {
   const ref = {
@@ -60,6 +61,7 @@ function App() {
       <div ref={ref.form}>
         <Form />
       </div>
+      <Footer />
     </div>
   );
 }

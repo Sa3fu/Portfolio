@@ -77,7 +77,7 @@ function Form() {
           </div>
           <div className="flex justify-center items-center">
             <button
-              className="text-cyan-500 border-2 border-cyan-500 p-2 px-10 rounded-sm text-xl hover:bg-cyan-500 hover:text-white"
+              className="text-cyan-500 border-2 border-cyan-500 p-2 px-10 rounded-sm text-xl hover:bg-cyan-500 hover:text-white mb-16"
               type="submit"
               value="Send"
             >

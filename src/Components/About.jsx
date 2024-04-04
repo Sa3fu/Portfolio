@@ -5,7 +5,7 @@ import { BackgroundBeams } from "../ui/background-beams";
 function About() {
   return (
     <div className="relative bg-stone-900 p-5">
-      <BackgroundBeams/>
+      <BackgroundBeams />
       <div className="text-white relative sm:px-20 mt-6 lg:px-36">
         <h3 className="text-4xl font-titleFont font-bold flex justify-start mb-4">
           Hey, I'm Mohammad Saifuddin.
@@ -26,29 +26,38 @@ function About() {
         </div>
         <div className=" w-full lg:w-2/3 leading-7">
           <p className=" font-normal mb-2">
-            I'm a fourth year student at Northeastern University in Boston
-            studying computer science and interaction design. I have experience
-            developing and designing software for the web, from simple landing
-            pages to progressive web applications. I strive to create software
-            that not only functions efficiently under the hood, but also
-            provides intuitive, pixel-perfect user experiences.
+            I graduated from LBS College of Engineering, Kasaragod, with a
+            Bachelor of Technology in Computer Science and Engineering in 2023.
+            There, I developed a thorough understanding of a variety of areas,
+            including system software and formal languages. I became proficient
+            in machine learning and artificial intelligence (AI) principles
+            during my college years, in addition to programming languages like
+            C, C++, Java, and Python. I used Express, Node.js, MongoDB, and
+            React.js to create a Rental Car Management system for my small
+            project. My main research also used AI and machine learning to
+            identify eye disorders.
           </p>
           <p className=" font-normal mb-2">
-            I love learning new and better ways to create seamless user
-            experiences with clean, efficient, and scalable code. I consider
-            work an ongoing education, and I'm always looking for opportunities
-            to work with those who are willing to share their knowledge as much
-            as I want to learn. At the end of the day, my primary goal is to
-            create something beautiful with people that bring out the best in
-            me.
+            At Appmocx, I am employed full-time as a software engineer. I helped
+            design a web application using Angular, NestJS, and low-code
+            technology while I was employed in this capacity. Data is shown in
+            the user interface through an easy integration between the program
+            and SAP. My contribution was significant in enabling buyers to
+            choose their preferred vendors by easing the order placement and bid
+            submission process for technical and commercial goods. To help
+            buyers select the best bid pricing, I also added bid management
+            features for sellers. I also included capabilities for tracking
+            shipment information and provided a range of customizable payment
+            choices, such as one-time or monthly installments.
           </p>
           <p className=" font-normal mb-2">
-            When I'm not in front of a computer screen, I'm probably
-            snowboarding, traveling, petting dogs, or learning a new song on my
-            uke.
+            <span className="font-bold">
+              When I'm not in front of a computer screen,
+            </span>{" "}
+            I'm probably Gaming, traveling, petting cats, learning a new song or
+            learning new programming language or trying something new .
           </p>
         </div>
-        
       </div>
     </div>
   );

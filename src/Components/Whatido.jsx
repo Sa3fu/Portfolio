@@ -67,15 +67,15 @@ function Whatido() {
                     />
                   </span>
                   <h3 className="font-tilteFont text-lg text-semibold">
-                    RESPONSIVE UI DESIGN
+                  EXPERIENCE DESIGN
                   </h3>
                 </div>
                 <p className="text-base ">
-                  "A user interface is like a joke. If you have to explain it,
-                  it's not that good." I strive to develop and implement
-                  responsive and aesthetically pleasing interfaces for websites
-                  and apps that adapt to any type of device, platform, or
-                  browser.
+                  There have been far too many times where I've been trying to
+                  accomplish a simple task on a website, and ended up wanting to
+                  throw my computer out the window in frustration. Needless to
+                  say, user experience is an aspect of software I believe is
+                  vital to a successful product.
                 </p>
               </div>
             </div>
